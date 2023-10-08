@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Ac()">Open</button>
+    <button onclick="Kapat()">Close</button>
+    <script>
+        var a;
+function Ac(){
+a=window.open("https://salesforce.com/","_blank","Width=600,Height=600");
+a.moveTo(500,200);
+}
+
+function Kapat(){
+a.close();
+}
+    </script>
+</body>
+</html>
