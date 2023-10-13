@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .xx{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            border: 4px solid black;
+            border-radius: 15%;
+
+        }
+
+        .pclass{
+            text-align: center;
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div id="divid" class="xx">
+        <p id="pid" class="pclass"></p>
+    </div>
+    <script>
+var a=document.getElementById("divid");
+a.addEventListener("mousemove",RandomF);
+a.addEventListener("click",CloseRandomF);
+
+function RandomF(){
+var b=Math.floor(Math.random()*500);
+document.getElementById("pid").innerHTML=b;
+}
+
+function CloseRandomF(){
+    a.removeEventListener("mousemove",RandomF)
+}
+    </script>
+</body>
+</html>
