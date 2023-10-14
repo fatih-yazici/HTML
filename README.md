@@ -1,2 +1,2 @@
-# These are my HTML files. They are useful for understanding basic HTML and javascript structures. 
+# These are my HTML codes. They are useful for understanding the fundamentals of HTML and javascript structures. 
 by fatih yazıcı
